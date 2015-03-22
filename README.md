@@ -1,1 +1,1 @@
-# vertex-jersey-webapp
+# vertx-jersey-webapp
