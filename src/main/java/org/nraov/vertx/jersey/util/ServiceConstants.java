@@ -1,6 +1,8 @@
 package org.nraov.vertx.jersey.util;
 
 /**
+ * One of the standard way of defining string constants
+ *
  * Created by nageswara.v on 2/17/2015.
  */
 public class ServiceConstants {

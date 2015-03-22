@@ -11,6 +11,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * Abstracted out functionality related to loading configuration from the given file
+ *
  * Created by nageswara.v on 3/22/2015.
  */
 public class ConfigManager {

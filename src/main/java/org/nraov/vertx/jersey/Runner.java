@@ -12,6 +12,12 @@ import org.nraov.vertx.jersey.util.ServiceConstants;
 
 import java.util.Properties;
 
+/**
+ * Runner class
+ * - Loads configuration using value mentioned at command line -D config 
+ * - Initializes http server using configuration properties
+ * - Initializes REST services from resource folder
+ */
 public class Runner {
 
 	private static final Vertx vertx = Vertx.vertx();

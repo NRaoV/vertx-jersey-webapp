@@ -8,6 +8,10 @@ import java.util.Enumeration;
 import java.util.Properties;
 
 /**
+ * Command line argument parser. Useful to compose 
+ * - Help on command line
+ * - Parser for commandline arguments  
+ *
  * Created by nageswara.v on 7/28/2014.
  */
 public class CmdLineParser {
