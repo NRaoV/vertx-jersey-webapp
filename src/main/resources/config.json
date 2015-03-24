@@ -9,5 +9,5 @@
     "port": 8080,
     "base_path": "/",
     "resources": ["org.nraov.vertx.jersey.resources"]
-    },
+    }
 }
