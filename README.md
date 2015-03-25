@@ -12,7 +12,6 @@ Command will build the module and prepare distribution zip  "vertx-jersey-webapp
 
 ###Folder structure after extracting the zip
 
-- /lib/ - contains all required depedency libraries
 - /resources/ - contains configurations in json format
 - /run.sh - script to start the vertx instance
 - /vertx-jersey-webapp-1.0-SNAPSHOT.jar - Archive that contains Runner to start JerseyVerticle verticle and JAX-RS jersey resources
