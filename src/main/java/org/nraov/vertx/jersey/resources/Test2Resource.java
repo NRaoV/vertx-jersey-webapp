@@ -12,7 +12,6 @@ public class Test2Resource {
 	@GET
 	@Path("id")
 	public String getId() {
-		return getClass().getCanonicalName();
+        return "Id from Test2Resource";
 	}
-
 }

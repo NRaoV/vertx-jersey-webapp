@@ -5,13 +5,13 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("/test")
+@Path("/test1")
 @Produces(MediaType.APPLICATION_JSON)
 public class Test1Resource {
 
 	@GET
 	@Path("id")
 	public String getId() {
-		return getClass().getCanonicalName();
+		return "Id from Test1Resource";
 	}
 }

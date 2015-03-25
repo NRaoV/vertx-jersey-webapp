@@ -9,13 +9,15 @@
         <format>zip</format>
     </formats>
 
-    <dependencySets>
+
+<!--    <dependencySets>
         <dependencySet>
             <useProjectArtifact>false</useProjectArtifact>
             <outputDirectory>lib</outputDirectory>
             <unpack>false</unpack>
         </dependencySet>
-    </dependencySets>
+    </dependencySets>-->
+
 
     <!--    <includeBaseDirectory>false</includeBaseDirectory>-->
     <fileSets>
@@ -34,7 +36,7 @@
             <directory>${project.build.directory}</directory>
             <outputDirectory></outputDirectory>
             <includes>
-                <include>*.jar</include>
+                <include>vertx-jersey-webapp-1.0-SNAPSHOT.jar</include>
             </includes>
         </fileSet>
 
